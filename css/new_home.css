@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: border-box;
+    color: white;
+    overflow-x: hidden;
+}
+
+#h11{
+    z-index: 1;
+    font-size:70px ;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#h21{
+    z-index: 1;
+    font-size:30px ;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100px;
+    background-color: aliceblue;
+    z-index: 6;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 60px;
+    width: 1600px;
+    border-bottom: 2px solid rgba(255, 255,255, 0.5);
+    background-color: #003566;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.optionbar{
+    background-color: #003566;
+    width: 600px;
+    height: 60px;
+    border-bottom: 2px rgba(255, 255,255, 0.5);
+    
+
+}
+
+#op2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+
+.block{
+    background-color: rgba(58, 135, 250, 0.473);
+    height: 670px;
+    width: 90rem;
+    border: 2px black solid;
+    overflow-y: hidden;
+    
+}
+
+#b1{
+    height: 670px;
+    
+
+}
+
+#t1{
+    height: 750px;
+    width: 93.7rem;
+    
+}
+
+#h12{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    left: 50%;
+    top: 25%;
+}
+
+#pr1{
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    left: 45%;
+    top: 35%;
+}
+
+#h13{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    left: 0%;
+    top: 50%;
+    
+}

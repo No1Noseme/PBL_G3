@@ -1,0 +1,95 @@
+body{
+  /* background-color: color-mix(in hsl shorter hue, blue 50%, green 40%); */
+  background-color: #d1ecf7;
+  
+}
+
+.main{
+    
+    height: 900px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(255, 255, 255) solid;
+    position: absolute;
+    top: 3%;
+    left: 15%
+    
+    
+    
+}
+#form{
+  height: 800px;
+  width: 1000px;
+  position: absolute;
+  
+  /* background-color: blue; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.top{
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-stretch: extra-expanded;
+  background-color: #001d3d ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 1000px;
+  /* border: white 4px solid; */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+  
+input,select,textarea{
+    width: 500px;
+    height: 30px;
+    
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+::placeholder{
+  text-align: center;
+  font-weight: 300;
+  font-family: cursive;
+
+  }
+  
+  textarea {
+    height: 5rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #f5b077;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5e5555;
+  }
+
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    transition: height 0.3s;
+    overflow: hidden;
+}
+
+.sidebar-top {
+    padding: 10px;
+    background-color: #444;
+    cursor: pointer;
+}
+
+.sidebar-options {
+    display: none;
+}
+
+.sidebar-options a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+.sidebar-options a:hover {
+    background-color: #555;
+}

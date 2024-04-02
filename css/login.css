@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+}
+
+body{
+    background-color: #fcefd8;
+}
+
+.outer {
+    position: absolute;
+    left: 20%; 
+    top: 10%;
+    width: 900px; 
+    height: 550px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 8px; /* border-xl */
+    border: 2px solid rgba(231, 212, 247, 0.829);
+    border:border;
+
+}
+
+.image {
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    width: 445px; 
+    height: 550px; 
+    border-radius: 0px; 
+  }
+.h11{
+    color: rgba(34, 34, 34, 0.534);
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+
+#username , #password{
+    width: 300px; 
+    height: 48px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-family: Segoe UI; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 22px; 
+    background: #F5F1FEFF; /* primary-100 */
+    border-radius: 4px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+    position: absolute;
+    top: 27%;
+  }
+
+#password{
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+}
+#role{
+    height: 19px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 22px; 
+    background: #F5F1FEFF; /* primary-100 */
+    color: rgb(151, 151, 151);
+    border-radius: 4px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+    position: absolute;
+    top: 50%;
+    left: 32%;
+
+}
+#ls{
+    width: 330px;;
+    height: 29px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-family: Manrope; 
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 22px; 
+    background: rgb(151, 113, 238); /* primary-100 */
+    color: white;
+    border-radius: 4px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+    position: absolute;
+    top: 60%;
+    left: 7%;
+}
+.none{
+     color: white;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.smalltxt{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+/* hover */
+#role:hover{
+    border: #8E61F1FF 2px solid;
+    
+  }
+#username:hover{
+    border: #8E61F1FF 3px solid;
+}
+#password:hover{
+    border: #8E61F1FF 3px solid;
+}
+#ls:hover{
+    border: rgb(72, 2, 82) 1px solid;
+}
